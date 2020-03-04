@@ -1,4 +1,3 @@
-from shutil import copyfile
+import shutil
 
-
-copyfile(src, dst)
+newPath = shutil.copy('text.txt', 'test')
